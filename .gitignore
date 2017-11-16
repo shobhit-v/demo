@@ -1,0 +1,6 @@
+/**/nbproject
+/**/node_modules
+/**/.sass-cache
+/**/vendor
+/**/cache/
+/**/.idea/

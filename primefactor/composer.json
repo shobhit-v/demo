@@ -1,0 +1,27 @@
+{
+    "name": "demo/primefactor",
+    "description": "Desc of trsk here",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "shobhit.verma",
+            "email": "shobhit.verma@webvirtue.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "mockery/mockery": "dev-master",
+        "phpunit/phpunit": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Demo\\PrimeFactor\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Demo\\PrimeFactor\\Tests\\": "tests/"
+        }
+    }
+}
