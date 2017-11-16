@@ -1,6 +1,6 @@
 {
-    "name": "demo/primefactor",
-    "description": "Desc of trsk here",
+    "name": "demo/app",
+    "description": "Desc of task here",
     "type": "project",
     "license": "proprietary",
     "authors": [
@@ -16,12 +16,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Demo\\PrimeFactor\\": "src/"
+            "Demo\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Demo\\PrimeFactor\\Tests\\": "tests/"
+            "Demo\\Tests\\": "tests/"
         }
     }
 }

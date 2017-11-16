@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Demo\PrimeFactor;
+namespace Demo;
 
 
-class Main
+class PrimeFactor
 {
     public function calculatePrimeFactorFor(int $n): array
     {
