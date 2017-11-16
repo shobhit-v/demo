@@ -7,7 +7,10 @@ use Mockery\Exception\InvalidArgumentException;
 
 class FizBuzz
 {
-
+    /**
+     * @param int $number
+     * @return int|string
+     */
     static function checkForFizBuzz(int $number)
     {
         self::checkNumber($number);
